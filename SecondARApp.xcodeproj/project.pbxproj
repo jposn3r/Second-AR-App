@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		05A7CDF425604E6F000C1A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7CDF325604E6F000C1A8A /* AppDelegate.swift */; };
-		05A7CDF625604E6F000C1A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7CDF525604E6F000C1A8A /* ViewController.swift */; };
-		05A7CDF825604E6F000C1A8A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 05A7CDF725604E6F000C1A8A /* Experience.rcproject */; };
 		05A7CDFB25604E6F000C1A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CDF925604E6F000C1A8A /* Main.storyboard */; };
 		05A7CDFD25604E71000C1A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CDFC25604E71000C1A8A /* Assets.xcassets */; };
 		05A7CE0025604E71000C1A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CDFE25604E71000C1A8A /* LaunchScreen.storyboard */; };
+		05A7CE0A25604ED0000C1A8A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 05A7CE0925604ED0000C1A8A /* Experience.rcproject */; };
+		05A7CE0D25604F00000C1A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7CE0C25604F00000C1A8A /* ViewController.swift */; };
+		05A7CE1125604F40000C1A8A /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CE1025604F40000C1A8A /* toy_biplane.usdz */; };
+		05A7CE1A25605255000C1A8A /* Red_Birb.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CE1925605255000C1A8A /* Red_Birb.usdz */; };
+		05A7CE1D256054A1000C1A8A /* Free_Soccer_Pitch.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 05A7CE1C256054A1000C1A8A /* Free_Soccer_Pitch.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05A7CDF025604E6F000C1A8A /* SecondARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A7CDF325604E6F000C1A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05A7CDF525604E6F000C1A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05A7CDF725604E6F000C1A8A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		05A7CDFA25604E6F000C1A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A7CDFC25604E71000C1A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A7CDFF25604E71000C1A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A7CE0125604E71000C1A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A7CE0925604ED0000C1A8A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		05A7CE0C25604F00000C1A8A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../FirstARProject/Ex_Files_AR_iOS_Dev_RealityKit/Exercise Files/01_01/End/FirstARProject/FirstARProject/ViewController.swift"; sourceTree = "<group>"; };
+		05A7CE1025604F40000C1A8A /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		05A7CE1925605255000C1A8A /* Red_Birb.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Red_Birb.usdz; sourceTree = "<group>"; };
+		05A7CE1C256054A1000C1A8A /* Free_Soccer_Pitch.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Free_Soccer_Pitch.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				05A7CDF325604E6F000C1A8A /* AppDelegate.swift */,
-				05A7CDF525604E6F000C1A8A /* ViewController.swift */,
-				05A7CDF725604E6F000C1A8A /* Experience.rcproject */,
+				05A7CE0C25604F00000C1A8A /* ViewController.swift */,
+				05A7CE1025604F40000C1A8A /* toy_biplane.usdz */,
+				05A7CE1C256054A1000C1A8A /* Free_Soccer_Pitch.usdz */,
+				05A7CE1925605255000C1A8A /* Red_Birb.usdz */,
+				05A7CE0925604ED0000C1A8A /* Experience.rcproject */,
 				05A7CDF925604E6F000C1A8A /* Main.storyboard */,
 				05A7CDFC25604E71000C1A8A /* Assets.xcassets */,
 				05A7CDFE25604E71000C1A8A /* LaunchScreen.storyboard */,
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A7CE1A25605255000C1A8A /* Red_Birb.usdz in Resources */,
+				05A7CE1D256054A1000C1A8A /* Free_Soccer_Pitch.usdz in Resources */,
 				05A7CE0025604E71000C1A8A /* LaunchScreen.storyboard in Resources */,
 				05A7CDFD25604E71000C1A8A /* Assets.xcassets in Resources */,
+				05A7CE1125604F40000C1A8A /* toy_biplane.usdz in Resources */,
 				05A7CDFB25604E6F000C1A8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A7CDF625604E6F000C1A8A /* ViewController.swift in Sources */,
 				05A7CDF425604E6F000C1A8A /* AppDelegate.swift in Sources */,
-				05A7CDF825604E6F000C1A8A /* Experience.rcproject in Sources */,
+				05A7CE0D25604F00000C1A8A /* ViewController.swift in Sources */,
+				05A7CE0A25604ED0000C1A8A /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7YH67SA4K;
 				INFOPLIST_FILE = SecondARApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7YH67SA4K;
 				INFOPLIST_FILE = SecondARApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
